@@ -80,6 +80,11 @@ dependencies {
 </declare-styleable>
 ```
 
+#Source Code Analysis
+
+There's a Chinese source code analysis here [Source Code], in the future maybe you can see the english version.
+国内的小伙伴就有福利啦，可以直接查看中文版的源码解析[源码]。
+
 #License
 
 ```
@@ -97,3 +102,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+[Source Code]: https://github.com/onlynight/RulerView
+[源码]: https://github.com/onlynight/RulerView
