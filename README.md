@@ -45,6 +45,41 @@ dependencies {
     app:ruler_line_height="2dp" />
 ```
 
+#XML property explain
+
+```xml
+<declare-styleable name="RulerSurfaceView">
+
+    <!-- The mark line at the ends of ruler's line type -->
+    <attr name="line_type" format="enum">
+        <enum name="dash_line" value="1" />
+        <enum name="line" value="2" />
+    </attr>
+
+    <!-- If the mark line is dash line,
+     you can define the dash line blank.
+     The default value is 3dp-->
+    <attr name="dash_line_blank" format="dimension" />
+
+    <!-- The mark line height.
+    The default value is 1px.-->
+    <attr name="line_height" format="dimension" />
+
+    <!-- The mark line color.
+    The default value is Color.WHITE.-->
+    <attr name="line_color" format="color" />
+
+    <!-- The ruler line color.
+    The default value is Color.WHITE.-->
+    <attr name="ruler_color" format="color" />
+
+    <!-- The ruler line height.
+    The default value is 2dp.-->
+    <attr name="ruler_line_height" format="dimension" />
+
+</declare-styleable>
+```
+
 #License
 
 ```
